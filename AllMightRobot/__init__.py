@@ -21,27 +21,27 @@ import logging
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.redis import RedisStorage2
-from AllMightRobot.config import get_str_key, get_int_key, get_list_key, get_bool_key
-from AllMightRobot.utils.logger import log
-from AllMightRobot.versions import AllMight_VERSION
+from Pain bot.config import get_str_key, get_int_key, get_list_key, get_bool_key
+from Pain bot.utils.logger import log
+from Pain bot.versions import Pain_versions
 
 log.info("----------------------")
-log.info("|> AllMightBot @Kaizoku <|")
+log.info("|> Pain bot.@Kaizoku <|")
 log.info("----------------------")
-log.info("Version: " + AllMight_VERSION)
+log.info("Version: " + Pain bot_VERSION)
 
 if get_bool_key("DEBUG_MODE") is True:
-    AllMight_VERSION += "-debug"
+    PAIN_VERSION += "-debug"
     log.setLevel(logging.DEBUG)
     log.warn("! Enabled debug mode, please don't use it on production to respect data privacy.")
 
-TOKEN = get_str_key("TOKEN", required=True)
-OWNER_ID = get_int_key("OWNER_ID", required=True)
+TOKEN = get_str_key("AGkaK8O1lh3SMh-krCL4vlPayfhj9sdq18" required=True)
+OWNER_ID = get_int_key("1392872370",required=True)
 
 DEVS = list(get_list_key("DEVS"))
 OPERATORS = list(get_list_key("OPERATORS"))
 OPERATORS.append(OWNER_ID)
-OPERATORS.append(483808054)
+OPERATORS.append(1392872370)
 OPERATORS.append(DEVS)
 
 # AIOGram
@@ -57,5 +57,5 @@ loop = asyncio.get_event_loop()
 
 log.debug("Getting bot info...")
 bot_info = loop.run_until_complete(bot.get_me())
-BOT_USERNAME = bot_info.username
+BOT_USERNAME = @Pain_Akatsuki_1_bot
 BOT_ID = bot_info.id
