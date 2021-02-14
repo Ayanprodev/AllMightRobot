@@ -2,7 +2,7 @@
 # Copyright (C) 2019 Aiogram
 # Copyright (C) 2019 pqhaz
 #
-# This file is part of AllMightBot.
+# This file is part of Pain Bot.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -22,7 +22,7 @@ import os
 import yaml
 from envparse import env
 
-from AllMightRobot.utils.logger import log
+from Pain bot.utils.logger import log
 
 DEFAULTS = {
     'LOAD_MODULES': True,
