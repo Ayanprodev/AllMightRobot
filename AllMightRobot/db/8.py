@@ -19,8 +19,8 @@
 
 from pymongo import UpdateOne
 
-from AllMightRobot.services.mongo import mongodb
-from AllMightRobot.utils.logger import log
+from Pain bot.services.mongo import mongodb
+from Pain bot.utils.logger import log
 
 changelog = \
     """
