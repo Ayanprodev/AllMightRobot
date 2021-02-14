@@ -18,10 +18,10 @@
 
 from pymongo import InsertOne
 
-from AllMightRobot.services.mongo import mongodb
-from AllMightRobot.utils.logger import log
+from Pain bot.services.mongo import mongodb
+from Pain bot.utils.logger import log
 
-log.info('AllMight Database v5')
+log.info('Pain Database v5')
 log.info("Feds: migrate to old feds database structure")
 log.info('Starting updating all feds...')
 
