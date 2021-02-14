@@ -16,8 +16,8 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from AllMightRobot.services.mongo import mongodb
-from AllMightRobot.utils.logger import log
+from Pain bot.services.mongo import mongodb
+from Pain bot.utils.logger import log
 
 from pymongo import DeleteOne
 
