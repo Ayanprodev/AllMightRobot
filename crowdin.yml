@@ -1,3 +1,3 @@
 files:
-  - source: AllMightRobot/localization/en.yaml
-    translation: /**/AllMightRobot/localization/%locale_with_underscore%.yaml
+  - source: Pain bot/localization/en.yaml
+    translation: /**/Pain bot/localization/%locale_with_underscore%.yaml
