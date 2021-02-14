@@ -1,7 +1,7 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
 # Copyright (C) 2019 Aiogram
 #
-# This file is part of AllMightBot.
+# This file is part of Pain bot.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from AllMightRobot.services.mongo import mongodb
-from AllMightRobot.utils.logger import log
+from Pain bot.services.mongo import mongodb
+from Pain bot.utils.logger import log
 
-log.info('AllMight Database v4')
+log.info('Pain bot Database v4')
 log.info("Filters: move 'note' to 'note_name'")
 log.info('Starting updating all filters...')
 
