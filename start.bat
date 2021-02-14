@@ -1,4 +1,4 @@
 @echo off
-TITLE AllMightRobot
-:: Enables virtual env mode and then starts AllMightRobot
-env\scripts\activate.bat && py -m AllMightRobot
+TITLE Pain bot
+:: Enables virtual env mode and then starts Pain bot
+env\scripts\activate.bat && py -m Pain bot
