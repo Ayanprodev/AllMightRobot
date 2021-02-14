@@ -23,11 +23,11 @@ from aiogram import types
 from aiogram.dispatcher.handler import SkipHandler
 from sentry_sdk import configure_scope
 
-from AllMightRobot import BOT_USERNAME, dp
-from AllMightRobot.config import get_bool_key
-from AllMightRobot.utils.filters import ALL_FILTERS
-from AllMightRobot.utils.logger import log
-from AllMightRobot.modules.error import parse_update
+from Pain bot import BOT_USERNAME, dp
+from Pain bot.config import get_bool_key
+from Pain bot.utils.filters import ALL_FILTERS
+from Pain bit.utils.logger import log
+from Pain bot.modules.error import parse_update
 
 DEBUG_MODE = get_bool_key('DEBUG_MODE')
 ALLOW_F_COMMANDS = get_bool_key("ALLOW_FORWARDS_COMMANDS")
