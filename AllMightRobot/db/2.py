@@ -1,7 +1,7 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
 # Copyright (C) 2019 Aiogram
 #
-# This file is part of AllMightBot.
+# This file is part of Pain Bot.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,6 +16,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from AllMightRobot.utils.logger import log
+from Pain bot.utils.logger import log
 
 log.warn('Blank DB update, nothing to-do, skipping!')
